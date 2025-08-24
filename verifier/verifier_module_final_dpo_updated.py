@@ -13,8 +13,8 @@ from tqdm import tqdm
 import time
 import traceback
 from copy import deepcopy
-api_key_1="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"
-api_key_2="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"
+api_key_1=""
+api_key_2=""
 
 class Output(BaseModel):
     event_score: int = Field(description="score for event question")

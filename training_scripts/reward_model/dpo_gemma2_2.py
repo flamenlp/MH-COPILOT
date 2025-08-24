@@ -51,9 +51,9 @@ import gc
 import numpy as np
 import verifier_module_final_dpo_updated as verifier
 
-token="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"
+token=""
 login(token = token)
-wandb_api_key = "e62fc492915628e64fcac9c082089ffed84dc72d"
+wandb_api_key = ""
 wandb.login(key=wandb_api_key)
 run = wandb.init(
     project='huggingface', 

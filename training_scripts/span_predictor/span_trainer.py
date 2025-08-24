@@ -21,7 +21,7 @@ metric = datasets.load_metric("seqeval")
 import wandb
 
 # Set your wandb API key
-wandb_api_key = "e62fc492915628e64fcac9c082089ffed84dc72d"
+wandb_api_key = ""
 
 # Log in to wandb using the API key
 wandb.login(key=wandb_api_key)
